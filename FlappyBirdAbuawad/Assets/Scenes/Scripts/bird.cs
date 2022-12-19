@@ -31,7 +31,7 @@ public class Bird : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D()
     {
         rb2d.velocity = Vector2.zero;
         isDead = true;
